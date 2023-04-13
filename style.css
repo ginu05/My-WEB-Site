@@ -1,0 +1,244 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+nav {
+    position:sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.0rem;
+    background-color:#171A21 ;
+    color: #D3D3D3;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center; 
+}
+footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color:#171A21 ;
+    color: #D3D3D3;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center; 
+    padding: 10px;
+    height: 80px;
+    bottom: 0;
+    border-radius: 30px;
+}
+
+footer h2{
+    position: relative;
+    position: absolute;
+    left: 43%;
+    padding: 10px;
+}
+
+  
+.logo img {
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+}
+  
+.menu {
+    list-style: none;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-grow: 1; 
+    justify-content: center; 
+  
+}
+  
+.menu li {  
+    position: relative;
+    margin: 0.15rem;
+}
+  
+.menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 0;
+    transition: 0.2s ease;
+}
+  
+.menu li a:hover {
+    background-color: #171A21;
+}
+  
+.dropdown-menu {
+    list-style: none;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color:#171A21;
+    box-shadow: 10 10px 6px rgba(0, 0, 0, 0.15);
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+}
+  
+.menu li:hover .dropdown-menu {
+    display: block;
+}
+  
+.dropdown-menu li {
+    margin: 0;
+}
+  
+.dropdown-menu li a {
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    transition:0.2s ease;
+}
+  
+.dropdown-menu li a:hover {
+    background-color: #3f3e3e;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+div  {
+    margin-left: 200px;
+    margin-right: 250px;
+}
+
+.content {
+    display: inline-block;
+    position: relative;
+    left: 12%;
+}
+
+.card{
+    display: inline-block;
+    background: linear-gradient(15deg, rgba(6, 84, 136, 0.255) 0%, rgba(255,255,255,1) 100%);
+    margin: 20px 20px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0px 10px 20px 0px;
+    max-width: 400px;
+    max-height: 430px;
+}
+
+.card img {
+    position: relative;
+    height: 300px;
+    max-width: 300px;
+    transition: 0.2s;
+}
+
+.card:hover img {
+    scale: 110%;
+    transition: 0.5s;
+}
+
+form {
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 ;
+    
+    padding: 30px;
+    position: relative;
+    background-color: #bebebe;
+    opacity: 70%;
+    border-radius:5%;
+}
+label {
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 5px;
+    color: #000000; 
+}
+input[type="text"]{
+    padding: 10px;
+    border: none;
+    border-top: 1px solid #9b9999;
+    border-bottom: 1px solid #9b9999;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #818181;
+    background: transparent;
+    font-family: 'Open Sans', sans-serif;
+}
+input[type="Password"]{
+    padding: 10px;
+    border: none;
+    border-top: 1px solid #9b9999;
+    border-bottom: 1px solid #9b9999;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #818181;
+    background: transparent;
+}
+input[type="submit"]{
+    padding: 10px;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #5c5a5a;
+    margin-left: 0px;
+    margin-right: 220px;
+    margin-bottom: 10px;
+    
+}
+
+
+
+div h1{
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+}
+
+
+.info{
+    width: auto;
+    display: flex;
+    position: relative;
+    margin-left: 500px;
+    margin-top: 100px;
+    margin-bottom: 530px;
+    width: 40%;
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    
+}
+
+.Formular{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 50% ;
+    margin-left: 800px;
+    margin-top: 50px;
+    margin-bottom: 250px;
+    position: relative;
+    width:auto;
+}
+.Formular1{
+    align-content: center;
+    width: 50% ;
+    display: flex;
+    margin-left: 800px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+
+}
+
